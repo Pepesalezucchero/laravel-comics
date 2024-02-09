@@ -1,7 +1,7 @@
 @import "~bootstrap/scss/bootstrap";
 /*general styles*/
 .my_container_general {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -121,6 +121,38 @@ a {
             object-fit: cover;
             object-position: 100% 0;
         }
+    }
+}
+
+/*buy section*/
+#buy_section_backgound {
+    background-color: #0483f9;
+}
+
+.my_buy_container {
+    min-height: 175px;
+    display: flex;
+
+    ul {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin: 0 35px;
+    }
+    
+    li {
+        width: 100%;
+    }
+    
+    img {
+        height: 60px;
+        vertical-align: middle;
+        margin-right: 15px;
+    }
+    
+    span {
+        color: $white;
+        text-transform: uppercase;
     }
 }
 
