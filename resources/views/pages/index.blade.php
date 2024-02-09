@@ -1,9 +1,11 @@
 @extends('layouts.main-layout')
+<!-- title -->
 @section('head')
     <title>Laravel comics</title>
 @endsection
 @section('content')
 </main>
+    <!-- comics section -->
     <section id="main_backgound">
         <div class="my_container_general my_main_container">
             <h1 class="main-title-page">CURRENT SERIES</h1>
@@ -22,6 +24,7 @@
             </div>
         </div>
     </section>
+    <!-- buying section -->
     <section id="buy_section_backgound">
         <div class="my_container_general my_buy_container">
             <ul>

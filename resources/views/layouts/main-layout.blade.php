@@ -11,8 +11,11 @@
 </head>
 <body>
     <div>
+        <!-- header -->
         @include('components.header')
+        <!-- main -->
         @yield('content')
+        <!-- footer -->
         @include('components.footer')
     </div>
 </body>

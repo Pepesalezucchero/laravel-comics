@@ -1,4 +1,5 @@
 <footer>
+    <!-- upper footer -->
     <section id="upper_footer_backgound">
         <div class="my_container_general my_upper_footer_container">
             <div class="footer-left">
@@ -47,7 +48,7 @@
             </div>
         </div>
     </section>
-
+    <!-- sub footer -->
     <section id="sub_footer_backgound">
         <div class="my_container_general my_sub_footer_container">
             <div class="btn">
