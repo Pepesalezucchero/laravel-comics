@@ -1,6 +1,6 @@
 <footer>
-    <section id="footer-backgound">
-        <div class="my_container_general my_footer_container">
+    <section id="upper_footer_backgound">
+        <div class="my_container_general my_upper_footer_container">
             <div class="footer-left">
                 <div class="col">
                     <ul><h2>DC COMICS</h2>
@@ -45,7 +45,22 @@
             <div class="footer-right">
                 <div class="logo-jumbotron"></div>
             </div>
+        </div>
+    </section>
 
+    <section id="sub_footer_backgound">
+        <div class="my_container_general my_sub_footer_container">
+            <div class="btn">
+                <button>SIGN-UP NOW!</button>
+            </div>
+            <div class="social">
+                <h1>FOLLOW US</h1>
+                <a href="#"><img src="{{ Vite::asset('resources/img/footer-facebook.png') }}" alt=""></a>
+                <a href="#"><img src="{{ Vite::asset('resources/img/footer-twitter.png') }}" alt=""></a>
+                <a href="#"><img src="{{ Vite::asset('resources/img/footer-youtube.png') }}" alt=""></a>
+                <a href="#"><img src="{{ Vite::asset('resources/img/footer-pinterest.png') }}" alt=""></a>
+                <a href="#"><img src="{{ Vite::asset('resources/img/footer-periscope.png') }}" alt=""></a>
+            </div>
         </div>
     </section>
 </footer>
